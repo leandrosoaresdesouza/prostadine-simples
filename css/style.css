@@ -1,0 +1,91 @@
+.presell {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  display: block;
+}
+
+header {
+  text-align: center;
+  background-color: #007953;
+  padding: 5px 20px;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 75px;
+}
+
+main {
+  text-align: center;
+  background-color: #fff;
+}
+
+main h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 55px;
+  margin: 15px 0;
+}
+
+.select-country {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  text-align: center;
+  background-color: #007953;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #D5D5D5;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.links a {
+  color: #000;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+
+
+  header h1 {
+    font-size: 55px;
+  }
+
+  main h2 {
+    font-size: 25px;
+  }
+
+  .select-country {
+    flex-direction: column;
+  }
+
+  .select-country img {
+    max-width: 70%;
+    margin: 10px 0;
+  }
+}
